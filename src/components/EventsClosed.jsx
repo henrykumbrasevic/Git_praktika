@@ -7,7 +7,7 @@ const EventsClosed = () => {
     <>
       <h1 className="text-5xl pl-10 pt-10">Events Closed</h1>
       
-      <div className="grid grid-cols-2 p-10">
+      <div className="flex gap-5 justify-center ">
         <div>
           <img src={barista} className="h-64"/>
           <p>Bezzera Latte Art competition</p>
@@ -22,7 +22,7 @@ const EventsClosed = () => {
         </div>
       </div>
       
-      <div className="grid grid-cols-3 p-10">
+      <div className="flex gap-5 justify-center ">
         <div>
           <img src={barista3} className="w-96" />
           <p>Public Cupping</p>
